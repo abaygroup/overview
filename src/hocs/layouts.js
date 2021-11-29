@@ -1,5 +1,7 @@
 import React from 'react';
 import Head from 'next/head';
+import Header from '../components/Header';
+import Footer from '../components/Footer';
 
 const Layout = (props) => {
     return (
@@ -11,7 +13,11 @@ const Layout = (props) => {
                 <link rel="shortcut icon" href="/icons/icon64.png" />
             </Head>
             <div id="root">
-                {props.children}
+                <div className="root-wrapper">
+                    <Header />
+                    {props.children}
+                    <Footer />
+                </div>
             </div>
         </React.Fragment>
     )

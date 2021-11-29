@@ -1,8 +1,8 @@
 .main-container {
-    width: 800px;
+    width: 820px;
     margin: 50px auto;
     text-align: center;
-    padding-bottom: 200px;
+    
 
     h1 {
        margin: 20px auto;
@@ -18,9 +18,14 @@
     }
 
     .link {
+        .overview {
+            background-color: transparent;
+            border: 1px solid white;
+            color: white;
+        }
         a {
             display: inline-block;
-            margin: 40px auto 0 auto;
+            margin: 20px 10px;
             padding: 10px 40px;
             background: white;
             color: black;
@@ -40,6 +45,16 @@
         width: 100%;
         padding: 0 20px;
 
+    }
+}
+
+@media screen and (max-width: 820px) {
+    .main-container {
+        padding: 0 20px;
+
+        h1 {
+            font-size: 300%;
+        }
     }
 }
 

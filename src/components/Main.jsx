@@ -26,7 +26,7 @@ const Main = () => {
             initial="hidden" 
             animate="visible" 
             variants={variants}
-            transition={{duration: 1}} 
+            transition={{duration: 1}}
         >
             <Image src="/icons/logo.png" width={5276} height={730} />
             <motion.h1
@@ -41,13 +41,15 @@ const Main = () => {
                 variants={item}
                 transition={{duration: 1}}
             >Mediahosting - бұл заманауи технологиялармен өңделген, озық ақпарат берудің жетілдірілген онлайн платформасы. </motion.p>
+            
             <motion.div className="link"
                 initial="hidden" 
                 animate="visible" 
                 variants={item}
                 transition={{duration: 1}}
             >
-                <Link href="http://mediahosting.abaystreet.com"><a target="_blank" rel="noopener noreferrer">Жылдам старт</a></Link>
+                <Link href="http://mediahosting.abaystreet.com"><a target="_blank" rel="noopener noreferrer">Платформа</a></Link>
+                <Link href="/overview"><a className="overview">Шолу</a></Link>
             </motion.div>
         </motion.div>
     )

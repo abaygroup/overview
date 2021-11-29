@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import Link from 'next/link';
+// import Link from 'next/link';
 
 
 const Footer = () => {
@@ -12,7 +12,7 @@ const Footer = () => {
                     <small>© 2021 Mediahosting, Inc.</small>
                 </div>
                 <div className="links">
-                    <ul className="us">
+                    {/* <ul className="us">
                         <li><Link href="/"><a>Mediahosting-те сабақ беру</a></Link></li>
                         <li><Link href="/"><a>Қосымшаны жүктеп алыңыз</a></Link></li>
                         <li><Link href="/"><a>Біз жайлы</a></Link></li>
@@ -29,7 +29,7 @@ const Footer = () => {
                         <li><Link href="/"><a>Құпиялылық саясаты</a></Link></li>
                         <li><Link href="/"><a>Сайт картасы</a></Link></li>
                         <li><Link href="/"><a>Қол жетімділік мәлімдемесі</a></Link></li>
-                    </ul>
+                    </ul> */}
                 </div>
             </div>
         </div>

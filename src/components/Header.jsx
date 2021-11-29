@@ -31,10 +31,10 @@ const Header = () => {
                     <Link href="/"><a><Image src="/icons/abaystreet.svg" width={180} height={36} /></a></Link>
                 </div>
                 <nav>
-                    <Link href="/"><a>Мүмкіндіктер</a></Link>
-                    <Link href="/"><a>Шаблондар</a></Link>
-                    <Link href="/"><a>Интеграция</a></Link>
-                    <Link href="/"><a>Тұтынушылар</a></Link>
+                    <Link href="/"><a>Mediahosting</a></Link>
+                    <Link href="/overview"><a>Шолу</a></Link>
+                    <Link href="/partners"><a>Серіктестік</a></Link>
+                    <Link href="/about"><a>Біз жайлы</a></Link>
                 </nav>
                 <div className="auth">
                     <Link href="http://mediahosting.abaystreet.com/accounts/login"><a>Кіру</a></Link>

@@ -25,6 +25,10 @@ body {
 #root {
     position: relative;
     min-height: 100vh;
+
+    .root-wrapper {
+        padding-bottom: 226px;
+    }
 }
 
 /* width */
