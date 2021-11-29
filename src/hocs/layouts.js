@@ -25,7 +25,7 @@ const Layout = (props) => {
 
 Layout.defaultProps = {
     title: "Қош келдіңіз - aBay street",
-    content: ""
+    content: "© aBay st: Біз әрдайым жаңа технологиялар арқылы адамдарды бір-бірімен байланыстыруға тырысамыз!"
 }
 
 export default Layout;
