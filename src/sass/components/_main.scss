@@ -1,21 +1,23 @@
-.main {
+.main-container {
     width: 800px;
     margin: 50px auto;
-   text-align: center;
+    text-align: center;
+    padding-bottom: 300px;
 
-   h1 {
+    h1 {
        margin: 20px auto;
        font-size: 400%;
        line-height: .9;
        color: whitesmoke;
-   }
-   p {
+    }
+
+    p {
        max-width: 520px;
        margin: 0 auto;
        color: #b1b1b1;
-   }
+    }
 
-   .link {
+    .link {
         a {
             display: inline-block;
             margin: 40px auto 0 auto;
@@ -30,5 +32,5 @@
                 opacity: .7;
             }
         }
-   }
+    }
 }

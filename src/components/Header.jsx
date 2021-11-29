@@ -37,8 +37,8 @@ const Header = () => {
                     <Link href="/"><a>Тұтынушылар</a></Link>
                 </nav>
                 <div className="auth">
-                    <Link href="/"><a>Кіру</a></Link>
-                    <Link href="/"><a>Регистрация</a></Link>
+                    <Link href="http://mediahosting.abaystreet.com/accounts/login"><a>Кіру</a></Link>
+                    <Link href="http://mediahosting.abaystreet.com/accounts/register"><a>Регистрация</a></Link>
                 </div>
             </motion.div>
         </div>

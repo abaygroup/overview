@@ -18,7 +18,7 @@ const Layout = (props) => {
 }
 
 Layout.defaultProps = {
-    title: "Добро пожаловать - aBay street",
+    title: "Қош келдіңіз - aBay street",
     content: ""
 }
 

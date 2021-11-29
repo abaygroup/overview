@@ -22,7 +22,7 @@ const Main = () => {
 
     return (
         <motion.div 
-            className="main"
+            className="main-container"
             initial="hidden" 
             animate="visible" 
             variants={variants}
@@ -49,8 +49,6 @@ const Main = () => {
             >
                 <Link href="http://mediahosting.abaystreet.com"><a target="_blank" rel="noopener noreferrer">Жылдам старт</a></Link>
             </motion.div>
-
-            
         </motion.div>
     )
 }
