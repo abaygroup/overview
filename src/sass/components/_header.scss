@@ -36,3 +36,17 @@
         // }
     }
 }
+
+
+@media screen and (max-width: 1032px) {
+    .header {
+        .intro-header {
+            width: 100%;
+            justify-content: center;
+
+            nav, .auth {
+                display: none;
+            }
+        }
+    }
+}

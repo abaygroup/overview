@@ -2,7 +2,7 @@
     width: 800px;
     margin: 50px auto;
     text-align: center;
-    padding-bottom: 300px;
+    padding-bottom: 200px;
 
     h1 {
        margin: 20px auto;
@@ -34,3 +34,22 @@
         }
     }
 }
+
+@media screen and (max-width: 1032px) {
+    .main-container {
+        width: 100%;
+        padding: 0 20px;
+
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .main-container {
+        padding: 0 20px;
+
+        h1 {
+            font-size: 200%;
+        }
+    }
+}
+

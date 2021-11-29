@@ -48,3 +48,28 @@
         }
     }
 }
+
+@media screen and (max-width: 1032px) {
+    .footer {
+        .intro-footer {
+            width: 100%;
+        }
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .footer {
+        .intro-footer {
+            flex-direction: column;
+
+            .links {
+                display: block;
+                
+                ul {
+                    padding: 10px 0;
+                    border-bottom: 1px solid rgb(128, 128, 128);
+                }
+            }
+        }
+    }
+}
