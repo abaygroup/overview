@@ -1,8 +1,8 @@
+import React from 'react';
 import Layout from "../hocs/layouts";
 import { motion } from "framer-motion";
 
-const About = () => {
-        
+const Privacy = () => {
     // For motion
     const item = {
         hidden: { y: 20, opacity: 0 },
@@ -16,20 +16,21 @@ const About = () => {
         hidden: { opacity: 0 },
         visible: { opacity: 1 },
     }
-    
+
     return (
         <Layout>
             <motion.div 
-            className="main-container"
-            initial="hidden" 
-            animate="visible" 
-            variants={variants}
-            transition={{duration: 1}}
+                className="main-container"
+                initial="hidden" 
+                animate="visible" 
+                variants={variants}
+                transition={{duration: 1}}
             >
-                <h1>Біз жайлы</h1>
+                <h1>Жабық политика</h1>
+                
             </motion.div>
         </Layout>
     )
 }
 
-export default About;
+export default Privacy;

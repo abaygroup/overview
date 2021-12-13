@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-// import Link from 'next/link';
+import Link from 'next/link';
 
 
 const Footer = () => {
@@ -12,13 +12,13 @@ const Footer = () => {
                     <small>© 2021 Mediahosting, Inc.</small>
                 </div>
                 <div className="links">
-                    {/* <ul className="us">
-                        <li><Link href="/"><a>Mediahosting-те сабақ беру</a></Link></li>
+                    <ul className="us">
                         <li><Link href="/"><a>Қосымшаны жүктеп алыңыз</a></Link></li>
-                        <li><Link href="/"><a>Біз жайлы</a></Link></li>
-                        <li><Link href="/"><a>Біздің координата</a></Link></li>
+                        <li><Link href="/about"><a>Біз жайлы</a></Link></li>
+                        <li><Link href="/agreement"><a>Пайдаланушы келісімі</a></Link></li>
+                        <li><Link href="/privacy"><a>Жабық политика</a></Link></li>
                     </ul>
-                    <ul className="career">
+                    {/* <ul className="career">
                         <li><Link href="/"><a>Карьера</a></Link></li>
                         <li><Link href="/"><a>Блог</a></Link></li>
                         <li><Link href="/"><a>Анықтама және көмек</a></Link></li>

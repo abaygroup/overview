@@ -38,6 +38,33 @@
             }
         }
     }
+
+
+    .agree-block {
+        text-align: left;
+        color: silver;
+
+        h1, h2 {
+            color: whitesmoke;
+        }
+        small {
+            font-size: 14px;
+            color: silver;
+        }
+
+        .terms {
+            margin-top: 40px;
+
+            h2 {
+                margin-bottom: 20px;
+            }
+
+            small {
+                display: block;
+                margin-bottom: 10px;
+            }
+        }
+    }
 }
 
 @media screen and (max-width: 1032px) {
